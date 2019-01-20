@@ -1,0 +1,24 @@
+.booking {
+    // display: flex;
+    // justify-content: center;
+    background-color: #f2f2f2;
+
+    .booking_title {
+        display: flex;
+        justify-content: center;
+        margin: 74px auto auto auto;
+        font-size: 2em;
+        color: $brandcolor
+    }
+
+    .booking_ticket {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 410px;
+        list-style: none;
+
+        li {
+            margin: 50px;
+        }
+    }
+}
