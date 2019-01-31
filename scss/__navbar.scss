@@ -1,31 +1,19 @@
-// .function_container {
-//     margin: 9px 250px 6px auto;
-
-// }
-
-// .function_bar {
-//     display: flex;
-//     justify-content: flex-end;
-//     list-style: none;
-
-//     li {
-//         margin-left: 15px;
-//         align-items: center;
-
-//     }
+// .function-container{
+//     box-shadow: 20px 0 #000000;
 // }
 
 .content-container {
     max-width: $content-width;
     margin: 0 auto;
-    border: 1px black solid;
-    
+    padding: 0 20px;
+    // border: 1px black solid;
+
 }
 
 .function-container__bar {
     display: flex;
     justify-content: flex-end;
-    padding: 10px 20px;
+    padding: 10px 0;
 
 }
 
@@ -45,22 +33,92 @@
 
 }
 
-.function-container__arrow{
+.function-container__arrow {
     position: relative;
-    top:-2px;
-    
+    top: -2px;
+
 }
 
-.function-container__search{
+.function-container__search {
     position: absolute;
     right: 5px;
-    
+
 }
 
-.function-container__facebook{
+.function-container__facebook {
     font-size: $font-size-small*1.5;
     color: darkblue;
 }
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
+.menu-container__logo {
+    display: flex;
+
+}
+
+
+.menu-container__content {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+
+    li {
+        padding: 0 40px;
+        border-right: 1px #464646 solid;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            color: $brandcolor;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // .navbar_container {
